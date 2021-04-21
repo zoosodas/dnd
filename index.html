@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex f-center">
+<div class="container">
+    <div class="d-none">
+        <label>Hero, ENTER YOUR NAME!
+            <input>
+        </label>
+        <button>Enter to the World</button>
+    </div>
+    <div class="d-flex f-center">
+
+        <div>
+            <div id="playerInfo" class="playerInfoDecoration">Player Info:</div>
+        </div>
+
+        <div id="town" class="townDecoration">Capital of Antharas
+            <div class="d-flex f-center">
+                <img src="https://i.pinimg.com/originals/83/2d/4b/832d4b162272d7715da3754435d2cf39.jpg">
+            </div>
+            <button id="toArena">To Arena</button>
+            <button id="toShop">To Shop</button>
+            <button id="takeQuest">Adventurers Guild</button>
+        </div>
+
+        <div id="arena" class="d-none arenaDecoration">Arena of Antharas
+            <div>
+                <img src="https://i.pinimg.com/originals/58/27/3e/58273e1c7ad45a72da84155b976c9016.jpg">
+            </div>
+            <button id="toTown">To Town</button>
+            <button id="attak">Chalange Monster</button>
+            <div class="d-flex f-center">
+                <div class="battlefieldDecoration f-grow">
+                    <div id="PlayerAtt"></div>
+                    <div id="MonsterAtt"></div>
+                </div>
+                <div>
+                    <div class="creatureInfoDecoration" id="creatureInfo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="custom.js"></script>
+</body>
+</html>
